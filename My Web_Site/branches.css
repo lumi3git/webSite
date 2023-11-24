@@ -1,0 +1,283 @@
+*{
+	margin:0;
+	padding:0;
+}
+.BrandLogo{
+	padding:0% 0%;
+	background-color:red;
+}
+.carlogo{
+	margin:23px 1px 8px;
+	margin-left:-100%;
+	background-size:auto;
+}
+#branches1{
+	margin-top:50px;
+	font-size:15px;
+}
+.brand{
+	
+	margin:1px 1px 4px;
+	margin-top:-19px;
+	padding:0px;
+	background-size:auto;
+}
+
+nav .frBranches{
+	flex-basis:32%;
+	border-radius:55px;
+	text-align:center;
+	position:relative;
+	overflow:hidden;
+	text-align:center;	
+	background-color:red;
+	
+	
+}
+nav .carParah h1{
+	text-align:right;
+	font-size:40px;
+	background-color:red;
+}
+
+.servPic{
+	display:block;
+	
+}
+
+.carParah{
+	align-items:center;
+	margin-left:350px;
+	margin-bottom:50px;
+}
+
+.servPic{
+	background:#dcdcdc;
+	height:10%;
+	width:70%;
+	top:10px;
+	left:10px;
+	text-align:center;
+	font-size:55px;
+	margin-top:55px;
+	font-family:Monaco;
+	color:#696969;
+	font-weight:normal;
+
+}
+
+.layer1{
+	font-size:55px;
+	
+}
+
+.braParah{
+	text-align:center;
+	padding:50px;
+	font-size:30px;
+	font-family:Lucida Console;
+}
+.braParah h3{
+	font-size:30px;
+	font-family:Papyrus;
+	padding:20px;
+}
+
+
+.topic{
+	text-align:center;
+	font-size:58px;
+	padding:20px;
+}
+
+.island{
+	text-align:center;
+	font-size:30px;
+	padding:20px;
+	color:blue;
+	font-weight:bold;
+	font-family:Courier New;
+}
+
+.openDays{
+	font-size:23px;
+	color:	#000000;
+	background:	#708090;
+	padding:20px;
+	margin-top:2px;
+	display: flex;
+}
+
+.openDays h3{
+	padding-left: 45px;
+}
+
+.foreignBra{
+	margin-left:100px;
+	font-size:23px;
+	color:#000000;
+	background:	#708090;
+	display: flex;
+}
+.foreignBra ul li{
+	margin-top:10px;
+	margin-left:35px;
+	bottom:20px;
+	padding:4px 2px 5px;
+}
+.bran{
+		position:center;
+
+}
+
+.contact{
+	margin-left:100px;
+	font-size:23px;
+	color:#000000;
+	background:	#708090;
+	display: flex;
+}
+
+.header{
+	min-height:100vh;
+	width:100%;
+	background-image:linear-gradient(rgba(4,9,30,0.7,)),url(images/clement-m-Ng3xrviPrhk-unsplash.JPG)
+	background-position:center;
+	background-size:auto;
+	position:relative;
+}
+
+
+nav{
+	display:flex;
+	padding:2% 2%;
+	justify-content:space-around;
+}
+
+nav img{
+	width:150px;	
+}
+
+
+h2{
+	font-size:10px;
+	font-family:arial;
+	margin-bottom:10px;
+}
+.home-links{
+	flex:1;
+	text-align:right;
+	padding:8px 12px;
+}
+
+.home-links ul li{
+	list-style:none;
+	display:inline-block;
+	padding:8px 12px;
+	position:relative;		
+}
+
+.home-links ul li a{
+	color:black;
+	text-decoration:none;
+	font-size:25px;
+	font-weight: bold;
+	
+}
+
+.home-links ul li::after{
+	content:'';
+	width:0%;
+	height:2.5px;
+	background-color:red;
+	display:block;
+	margin:auto;
+	transition:1s;
+
+}
+
+.home-links ul li:hover::after{
+	width:100%;
+	
+}
+
+
+.Main-para{
+	width:80%;
+	color: white;
+	position:absolute;
+	top:18%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	font-size:25px;
+	font-family:Georgia;
+	text-align:center;
+}
+
+.Main-para h3{
+	font-size:45px;
+}
+
+.Main-para{
+	font-size:18px;
+	margin:10px 0 40px;
+}
+
+.visit{
+	display:inline-block;
+	text-decoration:none;
+	padding:12px 34px;
+	color:white;
+	font-size:14px;
+	border:1px solid #fff;
+	background:transparent;
+	position:relative;
+	cursor:pointer;
+	border-width:3px;
+}
+
+.visit:hover{
+	border:1px solid #fff;
+	background:#778899;
+	transition:0.9s;
+}
+nav .fa{
+	display:none;
+}
+
+
+@media(max-width: 800px){
+	.Main-para h3{
+		font-size:40px;
+	}
+
+	.home-links ul li{
+		display:block;
+	}
+	
+	.home-links{
+		position:absolute;
+		background:red;
+		height:100vh;
+		width:200px;
+		top:0;
+		right:-200px;
+		text-align:left;
+		z-index:2;
+		transition:1s;
+	}
+	
+	nav  .fa{
+		display:block;
+		color:green;
+		margin:20px;
+		font-size:25px;
+		cursor:pointer;
+	}
+	
+	.home-links ul{
+		padding:30px;
+
+	}
+		
+}

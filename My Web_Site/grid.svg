@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<path d="M 35 30 H 80 M 70 25 L 80 30 L 70 35" fill="none" stroke="blue"/>
+	<text x="50" y="25" fill="blue">x</text>
+	
+	<path d="M 0 0 V 800 m 100 -800 V 800 m 100 -800 V 800 m 100 -800 V 800
+	m 100 -800 V 800 m 100 -800 V 800 m 100 -800 V 800 m 100 -800 V 800 m 100 -800 V 800
+	m 100 -800 V 800 m 100 -800 V 800 m 100 -800 V 800 m 100 -800 V 800 m 100 -800 V 800" stroke="black"/>
+	
+	<text x="100" y="15" fill="red">100</text>
+	<text x="200" y="15" fill="red">200</text>
+	<text x="300" y="15" fill="red">300</text>
+	<text x="400" y="15" fill="red">400</text>
+	<text x="500" y="15" fill="red">500</text>
+	<text x="600" y="15" fill="red">600</text>
+	<text x="700" y="15" fill="red">700</text>
+	<text x="800" y="15" fill="red">800</text>
+	<text x="900" y="15" fill="red">900</text>
+	<text x="1000" y="15" fill="red">1000</text>
+	<text x="1100" y="15" fill="red">1100</text>
+	<text x="1200" y="15" fill="red">1200</text>
+	
+	<path d="M 30 35 V 80 M 25 70 L 30 80 L 35 70" fill="none" stroke="blue"/>
+	<text x="18" y="60" fill="blue">y</text>
+	
+	<path d="M 0 0 H 1400 m -1400 100 H 1400 m -1400 100 H 1400 m -1400 100 H 1400
+	m -1400 100 H 1400 m -1400 100 H 1400 m -1400 100 H 1400 m -1400 100 H 1400 
+	m -1400 100 H 1400 m -1400 100 H 1400 m -1400 100 H 1400 m -1400 100 H 1400" stroke="black"/>
+
+	<text x="0" y="95" fill="red">100</text>
+	<text x="0" y="195" fill="red">200</text>
+	<text x="0" y="295" fill="red">300</text>
+	<text x="0" y="395" fill="red">400</text>
+	<text x="0" y="495" fill="red">500</text>
+	<text x="0" y="595" fill="red">600</text>
+	<text x="0" y="695" fill="red">700</text>
+	
+</svg>
